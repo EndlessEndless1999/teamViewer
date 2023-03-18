@@ -18,4 +18,6 @@ class Engineer extends Employee {
 
 var e = new Engineer('Charlie', 'Boo', 'c@gmail.com', 'c/github');
 
-console.log(e.getRole());
+console.log(e.getRole(), e.name);
+
+module.exports = Engineer;
